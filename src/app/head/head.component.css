@@ -1,0 +1,25 @@
+
+  /* Assurez-vous que la navbar est toujours visible et au-dessus du contenu */
+
+  /* Assurez-vous que le contenu ne se cache pas derrière la navbar */
+
+  
+  /* Responsive Design */
+  @media (max-width: 1000px) {
+    .navbar-collapse {
+      margin-top: 0px; /* Espacement au-dessus de la navbar-collapse sur les petits écrans */
+      background-color: #C0C0C0;
+      z-index: 1000;
+    }
+    
+    .navbar-toggler {
+      border-color: white; /* Couleur de bordure du bouton de menu */
+    }
+    
+   
+    
+    .navbar-nav .nav-link {
+      text-align: center; /* Centrer les liens dans le menu mobile */
+    }
+  }
+  
